@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "超摩App",
+  "usingComponents": {
+    "loading": "/components/loading"
+  }
+}

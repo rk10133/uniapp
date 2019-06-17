@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "超摩App"
+			}
+		}, {
+			"path": "pages/brand/brand",
+			"style": {
+				"navigationBarTitleText": "品牌故事"
+			}
+		}, {
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "服务详情"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#81b79b",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/icons/index.png",
+			"selectedIconPath": "static/images/icons/index.png",
+			"text": "super"
+		}, {
+			"pagePath": "pages/brand/brand",
+			"iconPath": "static/images/icons/brand.png",
+			"selectedIconPath": "static/images/icons/brand_active.png",
+			"text": "品牌"
+		}, {
+			"pagePath": "pages/service/service",
+			"iconPath": "static/images/icons/service.png",
+			"selectedIconPath": "static/images/icons/service_active.png",
+			"text": "客服"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/icons/my.png",
+			"selectedIconPath": "static/images/icons/my_active.png",
+			"text": "我的"
+		}]
+	}
+}

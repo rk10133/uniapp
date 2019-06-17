@@ -1,0 +1,45 @@
+
+.user.data-v-cf66ebec {
+	position: relative;
+}
+.user .img.data-v-cf66ebec {
+	width: 100%;
+}
+.avatar.data-v-cf66ebec {
+	width: 150rpx;
+	height: 150rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: 100rpx;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.user.data-v-cf66ebec,
+.wrap.data-v-cf66ebec {
+	background-color: rgba(0, 0, 0, .05);
+}
+.wrap.data-v-cf66ebec {
+	padding: 30rpx;
+}
+.wrap .card.data-v-cf66ebec,
+.wrap .bottom.data-v-cf66ebec {
+	background-color: #fff;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.wrap .card.data-v-cf66ebec {
+	margin-bottom: 30rpx;
+}
+.item.data-v-cf66ebec {
+	padding: 40rpx;
+	font-size: 32rpx;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap .card .item.data-v-cf66ebec:last-child,
+.wrap .bottom .item.data-v-cf66ebec:last-child {
+	border-bottom: 0;
+}
+

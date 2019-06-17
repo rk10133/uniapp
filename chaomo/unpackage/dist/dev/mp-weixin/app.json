@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/brand/brand",
+    "pages/service/service",
+    "pages/my/my",
+    "pages/product/product",
+    "pages/order/order"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#81b79b",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/icons/index.png",
+        "selectedIconPath": "static/images/icons/index.png",
+        "text": "super"
+      },
+      {
+        "pagePath": "pages/brand/brand",
+        "iconPath": "static/images/icons/brand.png",
+        "selectedIconPath": "static/images/icons/brand_active.png",
+        "text": "品牌"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "static/images/icons/service.png",
+        "selectedIconPath": "static/images/icons/service_active.png",
+        "text": "客服"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/icons/my.png",
+        "selectedIconPath": "static/images/icons/my_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
